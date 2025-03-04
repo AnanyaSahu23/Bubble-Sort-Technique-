@@ -1,0 +1,29 @@
+Time Complexity:
+Time complexity is the amount of time an algorithm takes to complete a task 
+as a function of input size. It helps us to determine the efficiency of an 
+algorithm and plays an important role when large inputs come into play.
+
+Bubble Sort and it's time complexity:
+When we talk about Bubble Sort the Worst Case complexity is O(n^2) when the 
+array is in reverse order and the Best Case complexity is omega(n) when the array
+ is already sorted.
+
+Selection Sort and it's time complexity:
+Selection Sort has both it's Worst Case Complexity(when array is in reverse order)
+ O(n^2) and Best Case Complexity(even if array sorted still it checks all the 
+ elements) as omega(n^2).
+
+Insertion Sort and it's time complexity:
+Insertion Sort has Worst Case Complexity as O(n^2) when the array is in reverse 
+order and the Best Case Complexity as omega(n) when array is already sorted.
+
+Merge Sort and it's time complexity:
+Merge Sort has consistent complexity in all cases as it has Worst Case Complexity 
+as O(n log n) and Best Case Complexity as omega(n log n). This is because in all 
+of the cases it divides the array into halves and merges even if they are sorted
+ division still happens.
+
+Merge Sort is like the most efficient of all the four techniques for large 
+datasets while Insertion sort is useful for nearly sorted data. Both Bubble and 
+Selection sorts are pretty slow as compared to the other two sorting techniques.
+
